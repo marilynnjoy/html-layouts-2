@@ -1,0 +1,162 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.test {
+    height: 50%;
+    width: 50%;
+    background: #000;
+}
+
+
+.flexcontainer {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row /* works with row or column */
+flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 2%;
+
+}
+.button {
+    display: inline-block;
+    width: 33%;
+    height: 300px;
+    margin: 3px;
+    border: 1px solid #c3c3c3;
+
+
+
+}
+
+.after-box {
+    clear: left;
+}
+
+
+.flexcontainertwo {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row /* works with row or column */
+flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 2%;
+
+}
+
+
+
+.black{
+    background: black;
+}
+
+.red {
+    background: red;
+}
+
+.blue {
+    background: blue;
+}
+
+.flexcontainertext {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row /* works with row or column */
+flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 2%;
+
+}
+.text-section {
+    height: 300px;
+    width: 95%;
+    font-size: 1.5em;
+    margin: 1em;
+
+
+}
+
+.box {
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+
+
+}
+
+.after-box {
+    clear: left;
+}
+
+
+
+
+.box-blue {
+    background: blue;
+    width: 65%;
+    margin: 0;
+}
+
+.box-red {
+    background: red;
+    width: 35%;
+    margin: 0;
+}
+
+.space {
+    height: 2em;
+}
+
+
+
+
+.flexcontainerthree {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row /* works with row or column */
+flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 2%;
+
+}
+
+.bottom-box {
+    display: inline-block;
+    height: 80px;
+}
+
+.bottom-gray {
+    background: gray;
+    width: 56%;
+}
+
+.bottom-blue {
+    background: blue;
+    width: 16%;
+}
+
+.bottom-red {
+    background: red;
+    width: 12%;
+}
+
+.bottom-blue-two {
+    background: blue;
+    width: 16%;
+}
+
+.space-bottom {
+    height: 5em;
+}
