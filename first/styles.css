@@ -24,16 +24,10 @@ flex-direction: row;
 .button {
     display: inline-block;
     width: 33%;
-    height: 300px;
+    height: 400px;
     margin: 3px;
     border: 1px solid #c3c3c3;
 
-
-
-}
-
-.after-box {
-    clear: left;
 }
 
 
@@ -50,7 +44,9 @@ flex-direction: row;
 
 }
 
-
+.after-box {
+    clear: left;
+}
 
 .black{
     background: black;
@@ -61,10 +57,18 @@ flex-direction: row;
 }
 
 .blue {
-    background: blue;
+    background: #0583BA;
 }
 
-.flexcontainertext {
+
+
+}
+
+.after-box {
+    clear: left;
+}
+
+.flexcontainertwo {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-direction: row /* works with row or column */
@@ -76,19 +80,27 @@ flex-direction: row;
     padding: 2%;
 
 }
+
 .text-section {
-    height: 300px;
-    width: 95%;
+
     font-size: 1.5em;
-    margin: 1em;
+    margin: 0 auto;
+
+    display: block;
+    padding: 5%;
+
+}
 
 
+
+.after-box {
+    clear: left;
 }
 
 .box {
     display: inline-block;
     width: 100%;
-    height: 200px;
+    height: 400px;
 
 
 }
@@ -99,9 +111,8 @@ flex-direction: row;
 
 
 
-
 .box-blue {
-    background: blue;
+    background: #0583BA;
     width: 65%;
     margin: 0;
 }
@@ -115,7 +126,6 @@ flex-direction: row;
 .space {
     height: 2em;
 }
-
 
 
 
@@ -134,16 +144,16 @@ flex-direction: row;
 
 .bottom-box {
     display: inline-block;
-    height: 80px;
+    height: 180px;
 }
 
 .bottom-gray {
-    background: gray;
+    background: #333333;
     width: 56%;
 }
 
 .bottom-blue {
-    background: blue;
+    background: #0583BA;
     width: 16%;
 }
 
@@ -153,7 +163,7 @@ flex-direction: row;
 }
 
 .bottom-blue-two {
-    background: blue;
+    background: #0583BA;
     width: 16%;
 }
 
